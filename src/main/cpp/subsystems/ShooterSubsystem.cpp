@@ -72,8 +72,8 @@ ShooterSubsystem::ShooterSubsystem( )  :
 void ShooterSubsystem::Periodic() {
     if ( 1 )
     {
-        extern nt::NetworkTableEntry yEntry;
-        extern nt::NetworkTableEntry xEntry;
+        //extern nt::NetworkTableEntry yEntry;
+        //extern nt::NetworkTableEntry xEntry;
         //double const yVal = yEntry.GetDouble( -1.0 );
         //double const xVal = xEntry.GetDouble( -1.0 );
 
@@ -242,10 +242,10 @@ bool ShooterSubsystem::TiltToAngle( double angle ) {
   double const motorControl =  -m_pid.Calculate( GetRotationDegreeA(), angle );
   if ( 0 )
   {
-    extern nt::NetworkTableEntry yEntry;
-    extern nt::NetworkTableEntry xEntry;
-    double const yVal = yEntry.GetDouble( -1.0 );
-    double const xVal = xEntry.GetDouble( -1.0 );
+    //extern nt::NetworkTableEntry yEntry;
+    //extern nt::NetworkTableEntry xEntry;
+    //double const yVal = yEntry.GetDouble( -1.0 );
+    //double const xVal = xEntry.GetDouble( -1.0 );
 
     
 

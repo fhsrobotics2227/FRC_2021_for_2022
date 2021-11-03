@@ -70,7 +70,7 @@ bool DriveSubsystem::RotateToTarget()
   if ( 0 )
   {
     //extern nt::NetworkTableEntry yEntry;
-    extern nt::NetworkTableEntry xEntry;
+    //extern nt::NetworkTableEntry xEntry;
     //double const yVal = yEntry.GetDouble( -1.0 );
     //double const xVal = xEntry.GetDouble( -1.0 );
 
